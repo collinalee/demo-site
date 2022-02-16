@@ -1,9 +1,17 @@
 /* Assignment 1 Styles  */
 /* Hero Image  */
 .clean-block.clean-hero::before{
+    background-image: url(/assets/img/assignment/homepage-hero.webp);
+    background-size: cover;
+}
+
+/* ORIGINAL IMAGE CODE
+
+.clean-block.clean-hero::before{
     background-image: url(https://psarmientom.github.io/demo-site/assets/img/assignment/homepage-hero.jpg);
     background-size: cover;
 }
+/*
 /* Blog main image  */
   .post-image{
     background-image: url(https://psarmientom.github.io/demo-site/demo-site/assets/img/assignment/blog-main.jpg);
